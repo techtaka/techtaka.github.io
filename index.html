@@ -1,19 +1,126 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world2!</h1>
-    <h2>Happy, world2!</h2>    
-  </body>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=”keywords” content=”犬好き,猫好き,Rubyも好き”>
+  <meta name=”description” content=”Rubyを使ったwebアプリケーション開発を最速で行います。”>
+  <title>Techtacaの課題説明</title>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ </head>
+
+ <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+   <div class="navbar-header">
+    <a class="navbar-brand" href="">Techtakaの課題</a>
+     <button class="navbar-toggle" data-toggle="collapse" data-target=".target">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+    </div>
+
+    <div class="collapse navbar-collapse target">
+     <ul class="nav navbar-nav">
+      <li class="active"><a href="">課題1</a></il>
+      <li><a href="">課題2</a></il>     
+      <li><a href="">課題3</a></il>
+      <li><a href="">課題4</a></il>      
+     </ul>
+    </div>
+   </nav>
+
+   <br />
+   <br />
+   <br />
+
+   <div class="container-fluid">
+    <div class="row-fluid">
+     <div class="col-sm-3" style="background-color:red;">
+      <h4>課題1</h4>
+      <p>
+       ああああああああああああああああああああああああああああああああああああああああああ
+      </p>
+     </div>
+     <div class="col-sm-3" style="background-color:blue;">
+      <h4>課題2</h4>
+      <p>
+       ああああああああああああああああああああああああああああああああああああああああああ
+      </p>     
+     </div>
+     <div class="col-sm-3" style="background-color:orange;">
+      <h4>課題3</h4>
+      <p>
+       ああああああああああああああああああああああああああああああああああああああああああ
+      </p>
+     </div>
+     <div class="col-sm-3" style="background-color:yellow;">
+      <h4>課題4</h4>
+      <p>
+       ああああああああああああああああああああああああああああああああああああああああああ
+      </p>
+     </div>
+    </div>
+   </div>
+
+   <br />
+
+   <div class="container-fluid">
+    <div class="panel panel-success">
+     <div class="panel-heading">
+      GitHub
+     </div>
+     <div class="panel-body">
+      <ol>
+       <li>ユーザページ</li>
+       <li><a href="https://github.com/techtaka">github.com/techtaka</a></li>
+      </ol>
+     </div>
+    </div>
+   </div>
+
+   <div class="container-fluid">
+    <a data-toggle="modal" href="#myModal" class="btn btn-success">自己紹介</a>
+
+    <div class="modal fade" id="myModal">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times</span></button>
+         <h3 class="modai-title">自己紹介</h3>         
+       </div>
+       <div class="modai-body">
+        <div class="container-fluid">
+         はじめましてTechtakaです。以前javaを少し勉強しましたが、今回新たにRUbyを勉強することにしました。
+         このキャンプ終了後は、オリジナルwebアプリを公開したいです。よろしくお願いします。
+        </div>
+       </div>
+       <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-dismiss="modal">閉じる</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+   <br />
+
+   <div class="container-fluid">
+    <footer style="background-color:gray">
+     <ul class="list-inline">
+      <li>利用規約</li>
+      <li>プライバシーポリシー</li>
+      <li>...</li>
+      <li>運営者</li>
+      <li>問い合わせ</li>
+     </ul>
+    </footer>
+   </div>
+
+  </div>
+ </body>
 </html>
